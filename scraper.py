@@ -7,7 +7,7 @@ import datetime
 import re
 import csv
 
-
+#TODO can make this more general. Give the general version target_url and brewery variables as inputs and have site specific cleaning/scraping steps confined to thier own functions (or use decorators?)
 def altamont_scraper():
 
     option = webdriver.ChromeOptions()
@@ -52,7 +52,7 @@ def altamont_scraper():
             output_list.append(item)
 
     #Saves scraped data to a csv file
-    with open('altamont.csv', mode='a') as csvfile:
+    with open('beer_log.csv', mode='a') as csvfile:
         record_writer = csv.writer(csvfile)
         for row in output_list:
             record_writer.writerow(row)
