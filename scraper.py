@@ -57,5 +57,9 @@ def altamont_scraper():
         for row in output_list:
             record_writer.writerow(row)
 
+    print("Checked {}'s tap list".format(brewery))
+
 
     browser.quit()
+
+altamont_scraper()
