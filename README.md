@@ -6,7 +6,7 @@ This is a little project I started for myself becasue I constantly found myself 
 ## Roadmap 
 * Feature - (Packages to learn)
 
-* Webscraping - (Selenium Webdriver, BeautifulSoup, PostgreSQL)
+* Webscraping - (Selenium Webdriver, BeautifulSoup, PostgreSQL, Scrapy instead of Selenium/BS4?)
 
       * Build it in a general form so that it can be table driven (only 
       requirment to add another brewery to be scraped should be to add a 
@@ -23,3 +23,5 @@ This is a little project I started for myself becasue I constantly found myself 
 * Reporting - (???)
   
       * Want to send emails out to communicate the analysis
+      * REST API to provide connections for services such as Amaxon Alexa (Flask? APIstar?)
+      * Connect to Twitter API and autotweet daily results?
