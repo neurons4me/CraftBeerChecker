@@ -20,8 +20,8 @@ This is a little project I started for myself becasue I constantly found myself 
       * Check the daily new offerings list against historic data and report 
       on brand new (never released before) offerings
       
-* Reporting - (???)
+* Reporting - (Dajngo, AWS Lambda)
   
-      * Want to send emails out to communicate the analysis
-      * REST API to provide connections for services such as Amaxon Alexa (Flask? APIstar?)
+      * Send emails out to communicate the analysis and exceptions (when mail server is implemented with PersonalSite can use that after integration with PersonalSite)
+      * REST API to provide connections for services such as Amaxon Alexa (integrate with PersonalSite as a django app to present API))
       * Connect to Twitter API and autotweet daily results?
