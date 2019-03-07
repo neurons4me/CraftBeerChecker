@@ -1,7 +1,7 @@
 # CraftBeerChecker
 Scrapes the taproom list for the local breweries and alerts to new or favored offerings.
 
-This is a little project I started for myself becasue I constantly found myself missing out on tasting some very limited time offering from my favorite local craft brewery. This is primarliy a learning project for me to practice with some libraries I've not worked with before.
+This is a little project I started for myself becasue I constantly found myself missing out on tasting some very limited time offerings from my favorite local craft brewery. This is primarliy a learning project for me to practice with some libraries I've not worked with before.
 
 ## Roadmap 
 * Feature - (Packages to learn)
